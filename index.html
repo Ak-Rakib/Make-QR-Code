@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Make QR Code</title>
+    <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
+    <div class="container">
+      <p>Enter your text or URL</p>
+      <input type="text" placeholder="Text or URL" id="qrText" />
+      <div id="imgBox">
+        <img src="" id="qrImg" />
+      </div>
+      <button onclick="generateQr()">Generate QR Code</button>
+    </div>
     <script src="JS/script.js"></script>
   </body>
 </html>
